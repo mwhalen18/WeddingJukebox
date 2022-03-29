@@ -25,7 +25,7 @@ deviceID = devices['devices'][0]['id']
 playlisturi = "spotify:playlist:7DM159dKkjm0Mgu2gFARp0"
 
 spotify.start_playback(deviceID, playlisturi, None)
-print("Welcome to your Spotify Jukebox" + user['display_name'])
+print("Welcome to your Spotify Jukebox " + user['display_name'])
 tracks = []
 
 while True:
