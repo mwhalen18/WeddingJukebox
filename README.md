@@ -21,6 +21,12 @@ spotipy_credentials = {
 
 ## Run the container
 
+To build the container
+
+```
+docker build --tag wedding-jukebox .
+```
+
 To run the container 
 
 ```
